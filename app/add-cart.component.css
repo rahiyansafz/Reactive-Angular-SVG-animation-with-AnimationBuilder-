@@ -1,0 +1,29 @@
+button,
+mat-icon {
+  display: flex;
+  margin: 0 auto 13px auto;
+}
+
+svg {
+  fill: #4D4D4D;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.mat-icon {
+  height: 64px;
+  width: 64px;
+}
+
+.mat-badge-medium.mat-badge-above .mat-badge-content {
+  right: 3px;
+  top: -6px;
+}
+
+.mat-accent,
+.mat-badge-content {
+  background-color: var(--accent-color);
+  color: white;
+}
